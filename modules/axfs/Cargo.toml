@@ -19,7 +19,7 @@ ext4fs = ["dep:ext4fs"]
 myfs = ["dep:crate_interface"]
 use-ramdisk = []
 monolithic = []
-default = ["devfs", "ramfs", "fatfs", "procfs", "sysfs"]
+default = ["devfs", "ramfs", "ext4fs", "procfs", "sysfs"]
 
 [dependencies]
 log = "0.4"
